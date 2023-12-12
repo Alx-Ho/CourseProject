@@ -13,7 +13,7 @@ The proposed project aligns with the "Intelligent Learning Platform" track, as i
 # Documentation
 
 ## User Guide
-
+Demo video: https://youtu.be/T97VDiRmhfk
 ### Prerequisites
 - Python 3.8
 - Libraries: `nltk`, `numpy`, `pandas`, `scipy`, `openai` (with conda, use `conda env create -f env.yml` to get required dependencies)
