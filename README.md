@@ -21,23 +21,43 @@ The proposed project aligns with the "Intelligent Learning Platform" track, as i
 
 ### How to Use
 
-1. **Prepare Your Environment:**
-   Install the required Python libraries using `pip install nltk numpy pandas scipy openai`.
+1. **Clone the Project Repository:**
+   ```
+   git clone https://github.com/Alx-Ho/CourseProject.git
+   ```
+2. **Enter the Project Directory:**
+   ```
+   cd CourseProject
+   ```
+3. **Prepare Your Environment:**
+4. 
+   (Preferred) Create a conda environment by using the provided `env.yml` file:
+   ```
+   conda env create -f env.yml
+   conda activate summarize
+   ```
+   or install the required Python libraries: 
+   ```
+   pip install nltk numpy pandas scipy openai
+   ```
 
-2. **Obtain an OpenAI API Key:**
-   Get an API key from OpenAI and set it as an environment variable or pass it directly to the script.
+5. **Obtain an OpenAI API Key:**
+   Get an API key from OpenAI and set it as an environment variable or pass it directly to the script (you can find one in my demo video).
 
-3. **Running the Script:**
-   - Input your transcript file in the designated input directory, e.g., `transcripts/your_transcript.txt`.
-   - Execute the script with the input file path, output paths for the cleaned transcript, and the embeddings CSV.
-   - Set the desired `relative_cutoff` for clustering.
-   - Run the script to get the summaries for each cluster.
+6. **Running the Script:**
+   Run the script with Python
+   ```
+   python run_in_terminal.py
+   ```
+   Follow the input prompts.
+   
+8. **Running the Notebook:**
+   - Input your transcript txt file path, e.g., `transcripts/lesson1.txt`.
+   - Set the desired `relative_cutoff` for clustering (0 to 1).
+   - Run the cells to get the summaries for each cluster.
 
-4. **Output:**
+9. **Output:**
    The script will display the number of clusters formed and a summary for each cluster.
-
-### Example
-See the `demo.ipynb` notebook for example usage. 
 
 ## Developer Guide
 
