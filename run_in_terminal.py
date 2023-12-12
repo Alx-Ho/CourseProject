@@ -11,7 +11,7 @@ def main():
         print("Cleaning the transcript...")
         
         # Setting the output path for the cleaned transcript
-        cleaned_file = 'results/cleaned_transcript.txt'
+        cleaned_file = 'cleaned_transcript.txt'
 
         # Cleaning the transcript file
         clean_transcript(input_file, cleaned_file)
@@ -21,7 +21,7 @@ def main():
         openai_api_key = input("Enter your OpenAI API key to embed the transcript: ")
 
         # File path to save embeddings and sentences
-        output_csv = 'results/transcript_embeddings.csv'
+        output_csv = 'transcript_embeddings.csv'
         print("Now tokenizing and embedding sentences...")
         
         # Tokenizing and embedding sentences in the transcript
